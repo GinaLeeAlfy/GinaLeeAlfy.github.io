@@ -18,7 +18,7 @@ const Home = () => {
             Github
           </a>
           <a href="https://twitter.com/GinaLeeAlfy" target="_blank">
-            <IconBrandX /> X/Twitter
+            <IconBrandX /> Twitter/X
           </a>
           <a href="https://icodethis.com/GinaLeeAlfy" target="_blank">
             iCodeThis

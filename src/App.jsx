@@ -1,5 +1,4 @@
 import { createRoot } from "react-dom/client";
-import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import { useState } from "react";
 
@@ -12,20 +11,16 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <div>
       <header>
-        <h1>
-          <Link to="/">GinaLeeAlfy</Link>
-        </h1>
+        <h1>GinaLeeAlfy</h1>
         <button className="switch" onClick={ToggleClass}>
           <div className={isLightMode ? "circle" : "circle hidden"}></div>
           <div className={isLightMode ? "circle hidden" : "circle"}></div>
         </button>
       </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+      <Home />
+    </div>
   );
 };
 

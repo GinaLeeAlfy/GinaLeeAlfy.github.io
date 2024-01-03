@@ -38,9 +38,8 @@ header {
   position: relative;
 }
 
-header a {
+h1 {
   color: var(--green);
-  text-decoration: none;
   font-weight: bold;
   display: block;
   padding: 1rem;
@@ -79,7 +78,6 @@ img {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .links a {
@@ -124,7 +122,8 @@ img {
   visibility: hidden;
 }
 
-.light a {
+.light a,
+.light h1 {
   color: var(--dark-green);
 }
 
