@@ -40,9 +40,8 @@ const Home = () => {
       <section>
         <h2>Gina Alfandary Magana</h2>
         <p>
-          I am an aspiring web developer. I studied Human Biology at UCSC. In my
-          free time I enjoy video/board games, horseback riding, racket sports,
-          and anime.
+          I am a web developer. I studied Human Biology at UCSC. In my free time
+          I enjoy video/board games, horseback riding, racket sports, and anime.
         </p>
       </section>
     </div>
