@@ -1,4 +1,8 @@
-import { IconBrandGithub, IconBrandX } from "@tabler/icons-react";
+import {
+  IconBrandGithub,
+  IconBrandX,
+  IconBrandLinkedin,
+} from "@tabler/icons-react";
 
 const Home = () => {
   return (
@@ -34,6 +38,14 @@ const Home = () => {
             rel="noreferrer"
           >
             iCodeThis
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ginaleealfy/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IconBrandLinkedin />
+            LinkedIn
           </a>
         </div>
       </section>
