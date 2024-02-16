@@ -56,6 +56,25 @@ const Home = () => {
           I enjoy video/board games, horseback riding, racket sports, and anime.
         </p>
       </section>
+      <section className="projects">
+        <h3>Please take a look at my projects:</h3>
+        <div className="links">
+          <a
+            href="https://wish.zeroleestudios.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Wish
+          </a>
+          <a
+            href="https://water.zeroleestudios.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Water Log
+          </a>
+        </div>
+      </section>
     </div>
   );
 };
