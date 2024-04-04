@@ -57,7 +57,7 @@ const Home = () => {
         </p>
       </section>
       <section className="projects">
-        <h3>Please take a look at my projects:</h3>
+        <h3>Please take a look at my project:</h3>
         <div className="links">
           <a
             href="https://wish.zeroleestudios.com/"
@@ -65,13 +65,6 @@ const Home = () => {
             rel="noreferrer"
           >
             Wish
-          </a>
-          <a
-            href="https://water.zeroleestudios.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Water Log
           </a>
         </div>
       </section>
