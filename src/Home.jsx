@@ -1,8 +1,4 @@
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconBrandLinkedin,
-} from "@tabler/icons-react";
+import Anchor from "./Anchor";
 
 const Home = () => {
   return (
@@ -17,36 +13,13 @@ const Home = () => {
       </section>
       <section>
         <div className="links">
-          <a
-            href="https://github.com/GinaLeeAlfy"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <IconBrandGithub />
-            Github
-          </a>
-          <a
-            href="https://twitter.com/GinaLeeAlfy"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <IconBrandX /> Twitter/X
-          </a>
-          <a
-            href="https://icodethis.com/GinaLeeAlfy"
-            target="_blank"
-            rel="noreferrer"
-          >
-            iCodeThis
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ginaleealfy/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <IconBrandLinkedin />
-            LinkedIn
-          </a>
+          <Anchor src="https://github.com/GinaLeeAlfy" site="Github" />
+          <Anchor src="https://twitter.com/GinaLeeAlfy" site="X/Twitter" />
+          <Anchor src="https://icodethis.com/GinaLeeAlfy" site="iCodeThis" />
+          <Anchor
+            src="https://www.linkedin.com/in/ginaleealfy/"
+            site="Linkedin"
+          />
         </div>
       </section>
       <section>
@@ -59,13 +32,7 @@ const Home = () => {
       <section className="projects">
         <h3>Please take a look at my project:</h3>
         <div className="links">
-          <a
-            href="https://wish.zeroleestudios.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Wish
-          </a>
+          <Anchor src="https://wish.zeroleestudios.com/" site="Wish" />
         </div>
       </section>
     </div>
