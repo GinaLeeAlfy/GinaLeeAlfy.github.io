@@ -14,7 +14,11 @@ const App = () => {
     <div>
       <header>
         <h1>GinaLeeAlfy</h1>
-        <button className="switch" onClick={ToggleClass}>
+        <button
+          aria-label="Light Mode Toggle Button"
+          className="switch"
+          onClick={ToggleClass}
+        >
           <div className={isLightMode ? "circle" : "circle hidden"}></div>
           <div className={isLightMode ? "circle hidden" : "circle"}></div>
         </button>
